@@ -19,11 +19,11 @@
     "*.{js,vue}": [
       "eslint --fix",
       "prettier --write",
-      "git add ."
+      "git add"
     ],
     "!(*.{js,vue})": [
       "prettier --write",
-      "git add ."
+      "git add"
     ]
   },
   "dependencies": {
