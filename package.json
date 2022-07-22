@@ -16,14 +16,12 @@
     }
   },
   "lint-staged": {
-    "*.{js,vue}": [
+    "*.{js,cjs,vue}": [
       "eslint --fix",
-      "prettier --write",
-      "git add ."
+      "prettier --write"
     ],
-    "!(*.{js,vue})": [
-      "prettier --write",
-      "git add ."
+    "*.{css,scss,less,json}": [
+      "prettier --write"
     ]
   },
   "dependencies": {
